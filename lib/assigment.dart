@@ -8,8 +8,8 @@ class AssignmentModule10 extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 60),
             Text(
               "Hello, World!",
               style: TextStyle(
